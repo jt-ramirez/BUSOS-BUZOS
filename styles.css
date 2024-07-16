@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color: #000000;
+}
+
+header{
+    display: inline-flexbox;
+    background-color: #ffee06;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    margin: 4px;
+    padding: 5px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e07917;
+}
+
+li{
+    display: inline;
+}
+
+li a{
+    text-decoration: none;
+    margin: 25px;
+    color: #ffffff;
+    border: 3px solid #000000;
+    padding: 8px;
+    background-color: #dfe206af;
+}
+
+section{
+    background: linear-gradient(90deg, #ffee06 0%, #ffffff 50%, #e07917 100%);
+    border: solid;
+}
+
+p{
+    margin: 10px;
+}
